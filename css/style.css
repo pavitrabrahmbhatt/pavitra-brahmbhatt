@@ -1,0 +1,92 @@
+body {
+   color: #FFFFFF;
+}
+.large-header {
+   position: relative;
+   width: 100%;
+   background: #111;
+   overflow: hidden;
+   background-size: cover;
+   background-position: center center;
+   z-index: 1;
+   font-family: 'Raleway', sans-serif;
+}
+
+.demo .large-header {
+   background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg");
+   font-family: 'Raleway', sans-serif;
+}
+
+.main-title {
+   position: absolute;
+   margin: 0;
+   padding: 0;
+   color: #FFFFFF;
+   text-align: center;
+   top: 50%;
+   left: 50%;
+   -webkit-transform: translate3d(-50%, -50%, 0);
+   transform: translate3d(-50%, -50%, 0);
+   font-family: 'Raleway', sans-serif;
+}
+
+.demo .main-title {
+   text-transform: uppercase;
+   font-size: 4.2em;
+   letter-spacing: 0.1em;
+   color: #FFFFFF;
+   font-family: 'Raleway', sans-serif;
+}
+
+.main-title .thin {
+   font-weight: 200;
+   color: #FFFFFF;
+   font-family: 'Raleway', sans-serif;
+}
+
+@media only screen and (max-width: 768px) {
+   .demo .main-title {
+      font-size: 3em;
+      color: #FFFFFF;
+   }
+}
+
+.main-title .subheading {
+   font-size: 25;
+   color: #FFFFFF;
+}
+
+.main-title .linksResume {
+   font-size: 17;
+   color: #FFFFFF;
+}
+.main-title .linksLinkedin {
+   font-size: 17;
+   color: #FFFFFF;
+}
+.main-title .linksGmail {
+   font-size: 17;
+   color: #FFFFFF;
+}
+.main-title .linksTwitter {
+   font-size: 17;
+   color: #FFFFFF;
+}
+.main-title .linksGithub {
+   font-size: 17;
+   color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
