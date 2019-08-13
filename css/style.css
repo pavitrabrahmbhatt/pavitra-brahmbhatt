@@ -54,30 +54,15 @@ body {
 .main-title .subheading {
    font-size: 25;
    color: #FFFFFF;
-}
-
-.main-title .linksResume {
-   font-size: 17;
-   color: #FFFFFF;
-}
-.main-title .linksLinkedin {
-   font-size: 17;
-   color: #FFFFFF;
-}
-.main-title .linksGmail {
-   font-size: 17;
-   color: #FFFFFF;
-}
-.main-title .linksTwitter {
-   font-size: 17;
-   color: #FFFFFF;
-}
-.main-title .linksGithub {
-   font-size: 17;
-   color: #FFFFFF;
+   font-family: 'Raleway', sans-serif;
 }
 
 
+img {
+   width: 50px;
+   height: 50px;
+   
+}
 
 
 
